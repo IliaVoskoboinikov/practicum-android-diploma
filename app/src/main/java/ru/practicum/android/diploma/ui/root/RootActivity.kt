@@ -10,6 +10,10 @@ class RootActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_root)
 
+
+
+
+        /// test
         // Пример использования access token для HeadHunter API
         networkRequestExample(accessToken = BuildConfig.API_ACCESS_TOKEN)
     }
